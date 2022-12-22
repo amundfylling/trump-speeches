@@ -4,3 +4,7 @@ By applying a Latent Dirichlet Allocation (LDA) topic model to Trump's speeches 
 <br>
 <br>
 ![Alt Text](coal_map.svg)
+<br>
+<br>
+<br>
+![Alt Text](top_20_terms_coal.html)

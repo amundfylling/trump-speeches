@@ -162,7 +162,7 @@ finished_plot <-
         plot.subtitle = element_text(hjust = 0.5 ,size = 12))
 
 # Save plot
-ggsave("../Map of coal mining topic.svg", 
+ggsave("../coal_map.svg", 
        plot = finished_plot, 
        width = 10, 
        height = 7)
