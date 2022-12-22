@@ -93,6 +93,7 @@ By applying a Latent Dirichlet Allocation (LDA) topic model to Trump's speeches 
   </tr>
 </tbody>
 </table>
+
 <br>
 <br>
 <br>
