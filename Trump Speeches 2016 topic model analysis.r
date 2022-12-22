@@ -161,6 +161,7 @@ finished_plot <-
   theme(plot.title = element_text(hjust = 0.5, size = 14),
         plot.subtitle = element_text(hjust = 0.5 ,size = 12))
 
+# Save plot
 ggsave("../Map of coal mining topic.svg", 
        plot = finished_plot, 
        width = 10, 
