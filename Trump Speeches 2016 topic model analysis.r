@@ -150,7 +150,8 @@ coal.mines <- read.csv2("../Coal_Mines.csv", sep = ",", header = T) %>%
 transformed_data <- usmap_transform(coal.mines)
 
 # Plot the finished plot
-us.map.plot +
+finished_plot <- 
+  us.map.plot +
   geom_point(data = transformed_data, 
              aes(x = x, y = y), 
              size = 0.3,
@@ -159,3 +160,9 @@ us.map.plot +
           subtitle = "(Red Dots = Coal Mines)") +
   theme(plot.title = element_text(hjust = 0.5, size = 14),
         plot.subtitle = element_text(hjust = 0.5 ,size = 12))
+
+ggsave("../Map of coal mining topic.svg", 
+       plot = finished_plot, 
+       width = 10, 
+       height = 7)
+
